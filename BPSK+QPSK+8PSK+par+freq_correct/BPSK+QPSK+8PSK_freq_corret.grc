@@ -2676,7 +2676,7 @@
     </param>
     <param>
       <key>file</key>
-      <value>/home/ar/shared/hard_projects/BPSK+QPSK+8PSK+par+freq_correct/BPSK+QPSK+8PSK_freq_corret.grc</value>
+      <value>/home/ar/shared/konf/SDR_spi/tx_data</value>
     </param>
     <param>
       <key>_coordinate</key>

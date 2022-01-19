@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Rx Tx Grc
-# Generated: Sun Jan  9 19:22:58 2022
+# Generated: Wed Jan 19 21:19:32 2022
 ##################################################
 
 from distutils.version import StrictVersion
@@ -464,7 +464,7 @@ class rx_tx_grc(gr.top_block, Qt.QWidget):
         self.blocks_moving_average_xx_0 = blocks.moving_average_ff(1000, 0.001, 10000)
         self.blocks_max_xx_0 = blocks.max_ff(bin_size,1)
         self.blocks_float_to_int_0 = blocks.float_to_int(1, 1)
-        self.blocks_file_source_0 = blocks.file_source(gr.sizeof_char*1, '/home/ar/shared/hard_projects/BPSK+QPSK+8PSK+par+freq_correct/BPSK+QPSK+8PSK_freq_corret.grc', True)
+        self.blocks_file_source_0 = blocks.file_source(gr.sizeof_char*1, '/home/ar/shared/konf/SDR_spi/tx_data', True)
         self.blocks_complex_to_real_0 = blocks.complex_to_real(1)
         self.blocks_complex_to_mag_squared_0 = blocks.complex_to_mag_squared(bin_size)
         self.blocks_argmax_xx_0 = blocks.argmax_fs(bin_size)
